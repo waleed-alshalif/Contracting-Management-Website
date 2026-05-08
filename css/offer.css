@@ -1,0 +1,137 @@
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 1;
+    transform: translateX(20vh);
+  }
+  25% {
+    opacity: 0.1;
+    transform: translateX(20vh);
+  }
+  75% {
+    opacity: 0.1;
+    transform: translateX(20vh);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(10px);
+
+  }
+}
+
+
+body {
+  -webkit-animation: fadeInUp 2s ease;
+  animation: fadeInUp 4s ease;
+
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  gap: 16rem;
+}
+
+
+
+
+
+/*                     ksbfgq;weqbgq;;;;;;;;;;;;; */
+
+body {
+    background-color:black;
+    color: orange;
+    font-size: 17px;
+  }
+
+  .title {
+    text-align: center;
+    
+  }
+ 
+    div {
+      margin-bottom: 10px;
+    }
+  
+  .Job  {
+    text-align: center;
+    text-align: left;
+    border-radius: 40px;
+    background-color: rgb(43, 47, 47);
+    width: 1000px;
+    margin: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 9px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+  }
+ul li {
+  list-style: none;
+  width: 290px;
+  border-bottom: 2px solid whitesmoke;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+  .form .data , #options {
+    margin: 10px;
+    width: 270px;
+    height: 30px;
+    background-color: rgb(146, 146, 129);
+    border-style: none;
+    border: none;
+    outline: none;
+    background: whitesmoke;
+    border-radius: 10px;
+  }
+  .form textarea {
+    border-radius: 10px;
+  }
+
+  .file h3 {
+    margin: 10px;
+  }
+  button {
+    
+    margin-left: 10px;
+    width: 171px;
+    height: 36px;
+    background-color: orange;
+    color: black;
+    border-radius: 12px;
+    border-color: rgb(28, 28, 27);
+    border-style: solid;
+}
+button:hover {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background-color:rgb(28, 28, 27);
+  cursor:grabbing;
+  color: orange;
+} 
+select option {
+    background-color: rgb(203, 139, 21);
+    font-size: 13px;
+}
+
+.but {
+  text-align: center;
+ 
+}
+::selection{
+  background-color: antiquewhite;
+  color: orange;
+}
+

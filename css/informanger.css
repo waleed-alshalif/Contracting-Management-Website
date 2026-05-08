@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  color: wheat;
+}
+.out {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid rgb(187, 130, 23);
+  }
+.out figure img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  }
+
+.out ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+.out ul li {
+  width: 220px;
+}
+h3 {
+  color: rgb(193, 158, 18);
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+}
+h4 {
+  font-size: 16px;
+}
+
+/* BOUT THE DATA FROM   */
+
+.text {
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.text .one {
+  margin: 19px;
+  padding: 18px;
+  width: 780px;
+  background-color: rgb(34 28 28);
+  border-bottom: 4px solid orange;
+  border-left: 31px solid orange;
+  border-bottom-right-radius: 105px;
+  border-bottom-left-radius: 39px;
+  text-transform: capitalize;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  text-align: left;
+  flex-direction: row;
+  align-items: center;
+}
+.text .one h2 {
+  color: orange;
+}
+.text .one h4 {
+  color: wheat;
+  font-size: 18px;
+}
+.text .one h4 span {
+  color: rgb(199, 192, 192);
+}
+.text .one p {
+  width: 700px;
+  color: rgba(217, 217, 207, 0.816);
+  font-size: 20px;
+}

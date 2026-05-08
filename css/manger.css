@@ -1,0 +1,105 @@
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 1;
+    transform: translateX(20vh);
+  }
+  25% {
+    opacity: 0.1;
+    transform: translateX(20vh);
+  }
+  75% {
+    opacity: 0.1;
+    transform: translateX(20vh);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(10px);
+
+  }
+}
+
+
+.uloutside #liall  {
+  -webkit-animation: fadeInUp 2s ease;
+  animation: fadeInUp 4s ease;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  gap: 16rem;
+}
+
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap";
+.maingermain {
+  background-color: rgb(34, 29, 29);
+}
+.uloutside {
+  border: 2px solid rgb(78, 78, 77);
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: space-between;
+}
+.maingermain .uloutside .ulinside {
+  list-style: none;
+  width: 900px;
+  height: 196px;
+  border: 1px solid orange;
+  border-top-right-radius: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+#liall {
+  margin: 7px;
+}
+.ulinside {
+  box-shadow: inset 4px 0rem 4rem 0px rgba(237, 158, 21, 0.5);
+}
+.ulinside:hover {
+  background-color: black;
+  transition: all 0.4s;
+    font-size: 38px;
+}
+
+.maingermain .uloutside #liall .ulinside .inside_li {
+  padding: 5px;
+}
+.maingermain .uloutside #liall .ulinside .inside_li h3 {
+  color: orange;
+  opacity: 0.6;
+  font-size: 15px;
+ 
+}
+.maingermain .uloutside #liall .ulinside .inside_li h4 {
+  color: wheat;
+  opacity: 0.7;
+  font-size: 14px;
+  font-family: emoji;
+  text-decoration: underline;
+  text-align: -webkit-center;
+}
+.maingermain .uloutside #liall .ulinside .inside_li figure img {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+.maingermain .uloutside .ulinside .inside_li a{
+  color : wheat;
+}
+.maingermain .uloutside .ulinside .inside_li a:hover {
+  color:rgb(199, 123, 31);
+}
+.maingermain .uloutside .ulinside{
+  border-top-left-radius: 80px;
+  
+}
+
+

@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(35, 33, 33);
+  color: wheat;
+}
+.job {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.job .title,
+h3  {
+  color: orange;
+
+}
+.form h3 {
+    font-size: 23px;
+}
+.job .form {
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 20px;
+    border: 3px solid orange;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    margin-bottom: 12px;
+    box-shadow: 1px -2px 20px 0px;
+}
+ul li {
+  list-style: none;
+}
+input {
+  margin: 10px;
+  width: 270px;
+  height: 40px;
+  border-style: none;
+  border: none;
+  outline: none;
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+textarea,
+input {
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgb(206, 196, 196);
+}
+
+
+.but {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 22px;
+}
+
+
+
+
+.but button {
+  margin-left: 10px;
+  width: 171px;
+  height: 36px;
+  background-color: orange;
+  color: black;
+  border-radius: 12px;
+  border-color: rgb(28, 28, 27);
+  border-style: solid;
+}
+
+.but button:hover {
+  color: wheat;
+  width: 150px;
+  height: 33px;
+  font-size: 12px;
+  background-color: rgb(28, 28, 27);
+  cursor: grabbing;
+}

@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #09080878;
+  }
+  
+  .card {
+    margin: 10px;
+    display: inline-block;
+    padding: 18px;
+    border-radius: 10px;
+    border-left: 3px solid orange;
+    border-bottom: 3px solid orange;
+    padding-left: 20px;
+    width: 600px;
+    background-color: #161515b7;
+    box-shadow: inset 5px 1rem 4rem 12px rgba(237, 158, 21, 14%);
+  }
+  .card:hover {
+    background-color:rgb(56, 56, 56);
+  }
+  .company_title {
+    color: orange;
+  }
+  .container {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .company_logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+  
+  .company_title {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .company_description {
+    margin-left: 30px;
+  }
+  
+  .offer a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 17px;
+    margin-left: 25px;
+  }
+  .offer a:hover {
+    font-size: 16px;
+    color: rgb(141, 73, 14);
+    cursor: pointer;
+  }
+  

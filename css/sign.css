@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+}
+.sign h1 {
+  margin-top: 60px;
+  text-align: center;
+  height: 38px;
+}
+.sign h1:hover {
+  font-size: 38px;
+}
+.sign {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 330px;
+  background-color: rgb(28, 28, 27);
+  color: orange;
+  width: 500px;
+  height: 450px;
+  border: 3px solid rgb(0, 0, 0);
+}
+.sign {
+  border-top-left-radius: 112px;
+  border-bottom-right-radius: 122px;
+  
+}
+.sign .form {
+  text-align: center;
+}
+
+.form input {
+  margin: 10px;
+  width: 270px;
+  height: 30px;
+  background-color: rgb(28, 28, 27);
+  border-style: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+.form input {
+  border-bottom: 2px solid orange;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+.form input:checked {
+  border: none;
+  outline: none;
+  background: none;
+}
+.sign input:checked {
+  border-color: rgb(28, 28, 27);
+  border: none;
+  outline: none;
+  background: none;
+}
+.sign input::placeholder {
+  border-color: orange;
+  font-size: 16px;
+  border-color: rgb(28, 28, 27);
+}
+button   {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: orange;
+    color: black;
+    border-radius: 12px;
+    border-color: rgb(28, 28, 27);
+    border-style: solid;
+}
+button:hover , #createaccount:hover{
+  width: 105px;
+  height: 28px;
+  font-size: 15px;
+  background-color:rgb(28, 28, 27);
+  cursor:grabbing;
+  color: orange;
+}
+
+
+/* CSS ABOUT THE INSIDE_CONTR HTML  */
+.back , #login{
+  text-decoration: none;
+  color: black;
+}
+.sign h4 {
+  margin-top: 60px;
+  text-align: center;
+  height: 38px;
+  color: rgb(56, 83, 96);;
+  font-size: 17px;
+
+}
